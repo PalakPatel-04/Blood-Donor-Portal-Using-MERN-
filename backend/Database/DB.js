@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-const DbURL = 'mongodb+srv://palak04patel:mongodb123%40@palakp.ijwz4.mongodb.net/BloodPortal'
+const DbURL = 'mongodb+srv://palak04patel:***************.ijwz4.mongodb.net/BloodPortal'
 const connect_Db = async () =>{
     try {
         const conn = await mongoose.connect(`${DbURL}`)
